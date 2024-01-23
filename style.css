@@ -1,0 +1,63 @@
+body {
+    background-color: azure;
+    display: grid;
+    place-items: center; /* Centra en ambas direcciones */
+    
+}
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ajusta según sea necesario */
+    height: 60px; /* Ajusta según la altura real de tu elemento */
+    background-color: azure;
+}
+.wrapper h1,h2 {
+    text-align: center;
+    padding: 25px;
+    background-color: azure;
+}
+
+.content {
+    margin-top: 100px;
+    width: 50%;
+    height: 550;
+    background-color: white;
+    
+}
+.content .story:first-child {
+   
+}
+.story-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26889c;
+    padding: 10px;
+    color: white;
+
+}
+.story-headTittle {
+    float: left;
+}
+.story-headDate {
+    float: right;
+}
+.story-img {
+    overflow:hidden ;
+    border: 1px solid #26889c;
+    width: 99.8%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+.story-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.story-description {
+    width: 99%;
+    height: 150px;
+    padding: 15px;
+}
